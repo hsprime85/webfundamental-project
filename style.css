@@ -1,0 +1,166 @@
+#container {
+    
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    width: 970px;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Volkhov', serif;
+}
+
+    header {
+        text-align: center;
+        width: 970px;
+    }   
+
+        h1 { 
+            font-size: 35px;
+        }
+
+        header img{
+            width: 10%;
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+
+        #top {
+            display: flex;
+            justify-content: flex-start;
+
+        } 
+        
+        #searchWith {
+            margin-bottom: 20px;
+            margin-left: 650px;
+            
+        }
+
+        form {
+            align-items: right;
+
+        }
+
+        input {
+            height: 20px;
+            border-style: none;
+            font-family: 'Volkhov', serif;
+        }
+
+        #searchButton {
+            border-style: none;
+            border-radius: 15px;
+            background-color: gray;
+            color: white;
+            height: 20px;
+            width: 70px;
+            margin: 0;
+            font-family: 'Volkhov', serif;
+            font-size: 10px;
+            cursor: pointer;
+
+        }
+
+    #main {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+        #nav {
+            width : 350px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+          
+            ul {
+                padding: 5px;
+                margin-left: 20px;
+            }
+
+            .navList {
+                list-style: none;
+                margin-bottom: 20px;
+                
+            }
+
+            .navList a { 
+                text-decoration: none;
+                font-size: 15px;
+                color: black;
+            }
+
+            .navList a:hover {
+                font-size: 20px;
+            }
+
+        #shoesImg img{
+            height: 220x;
+            width: 220px;
+            margin-right: 10px;
+            margin-left: 20px;
+           
+        }
+
+        h3 {
+            font-size: 35px;
+            color: black;
+            margin: 0;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        button {
+            margin-bottom: 30px;
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+            border-style: none;
+            width: 100px;
+            height: 40px;
+            font-size: 17px;
+            margin-left: 435px;
+            cursor: pointer;
+            
+
+        }
+
+    iframe {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }    
+
+    footer div{
+        display: flex;
+        justify-content: flex-start;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        padding: 25px;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    footer li {
+        line-height: 2;
+        font-size: 12px;
+        list-style: none;
+
+    }
+
+        .footerList {
+            font-size: 10px;
+            color: #bfbfbf;
+        }
+
+        #logos {
+            width: 100px;
+            height: 20px;
+            margin-left: 400px;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
